@@ -1,0 +1,36 @@
+.chart {
+  .header {
+    & > tr {
+      & > th {
+        text-align: center;
+        padding: 1rem 0;
+        color: #fff;
+        background-color: #484955;
+
+        &:first-child {
+          width: 10%;
+        }
+
+        &:last-child {
+          width: 40%;
+        }
+      }
+    }
+  }
+  
+  .body {
+    & > tr > td {
+      display: table-cell;
+      vertical-align: middle;    
+    }
+
+    & > tr > td:first-child {
+      text-align: center;
+    }
+
+    .warningTitle {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  }
+}
